@@ -1,0 +1,7 @@
+_BASE_: "deformable_detr_r50.yaml"
+
+MODEL:
+    DEFORMABLE_DETR:
+        NUM_FEATURE_LEVELS: 1
+        
+OUTPUT_DIR: saved/deformable_detr_r50_single_scale

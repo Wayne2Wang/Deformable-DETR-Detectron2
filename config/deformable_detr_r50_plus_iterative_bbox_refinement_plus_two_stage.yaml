@@ -1,0 +1,8 @@
+_BASE_: "deformable_detr_r50.yaml"
+
+MODEL:
+    DEFORMABLE_DETR:
+        WITH_BOX_REFINE: True
+        TWO_STAGE: True
+    
+OUTPUT_DIR: saved/deformable_detr_r50_plus_iterative_bbox_refinement_plus_two_stage
